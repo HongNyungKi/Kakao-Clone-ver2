@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/433f5fd19c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
     <title>Find | Kakao Clone</title>
 </head>
 
@@ -28,14 +29,15 @@
         </div>
     </div>
     <header class="header">
-        <div class="header__column1">
-            <h1 class="header__column1__title">
+        <div class="header__column">
+            <h1 class="header__column__title">
                 Find
             </h1>
         </div>
-        <div class="header__column2">
-            <span class="header__column2__icon">
+        <div class="header__column__icon">
+            <span class="header__column__icon-btn">
                 <i class="fas fa-search"></i>
+            <span class="header__column__icon-btn">
                 <i class="fas fa-cog"></i>
             </span>
         </div>
@@ -60,51 +62,53 @@
                     Invite
                 </li>
             </ul>
+        </header>
+        <section class="find__reccommended-friends">
             <h5 class="find__recommended-friends">
                 Recommended Friends
             </h5>
-            <ul class="find__reconnebed__list">
-                <li class="find__reconnebed__list__friend1">
-                    <div class="find__reconnebed__list__friend1__column1">
-                        <img class="find__reconnebed__list__friend1__column1__avatar" src="../image/groot.jpg">
-                        <div class="find__reconnebed__list__friend1__column1__content">
-                            <span class="find__reconnebed__list__friend1__column1__content__username">
+            <ul class="find__recommended__list">
+                <li class="find__recommended__list__friend1">
+                    <div class="find__recommended__list__friend1__column1">
+                        <img class="find__recommended__list__friend1__column1__avatar" src="../image/groot.jpg">
+                        <div class="find__recommended__list__friend1__column1__content">
+                            <span class="find__recommended__list__friend1__column1__content__username">
                                 Groot
                             </span>
                         </div>
-                        <div class="find__reconnebed__list__friend1__column2">
+                        <div class="find__recommended__list__friend1__column2">
                             <i class="fas fa-user-plus"></i>
                         </div>
                     </div>
                 </li>
-                <li class="find__reconnebed__list__friend2">
-                    <div class="find__reconnebed__list__friend2__column1">
-                        <img class="find__reconnebed__list__friend2__column1__avatar" src="../image/rocket.jpg">
-                        <div class="find__reconnebed__list__friend2__column1__content">
-                            <span class="find__reconnebed__list__friend2__column1__content__username">
+                <li class="find__recommended__list__friend2">
+                    <div class="find__recommended__list__friend2__column1">
+                        <img class="find__recommended__list__friend2__column1__avatar" src="../image/rocket.jpg">
+                        <div class="find__recommended__list__friend2__column1__content">
+                            <span class="find__recommended__list__friend2__column1__content__username">
                                 Rocket
                             </span>
                         </div>
-                        <div class="find__reconnebed__list__friend2__column2">
+                        <div class="find__recommended__list__friend2__column2">
                             <i class="fas fa-user-plus"></i>
                         </div>
                     </div>
                 </li>
-                <li class="find__reconnebed__list__friend3">
-                    <div class="find__reconnebed__list__friend3__column1">
-                        <img class="find__reconnebed__list__friend3__column1__avatar" src="../image/Mantis.jpg">
-                        <div class="find__reconnebed__list__friend3__column1__content">
-                            <span class="find__reconnebed__list__friend3__column1__content__username">
+                <li class="find__recommended__list__friend3">
+                    <div class="find__recommended__list__friend3__column1">
+                        <img class="find__recommended__list__friend3__column1__avatar" src="../image/Mantis.jpg">
+                        <div class="find__recommended__list__friend3__column1__content">
+                            <span class="find__recommended__list__friend3__column1__content__username">
                                 Mantis
                             </span>
                         </div>
-                        <div class="find__reconnebed__list__friend3__column2">
+                        <div class="find__recommended__list__friend3__column2">
                             <i class="fas fa-user-plus"></i>
                         </div>
                     </div>
                 </li>
             </ul>
-        </header>
+        </section>
     </main>
     <nav class="nav">
         <ul class="nav__list">
@@ -114,7 +118,10 @@
                 </a>
             </li>
             <li class="nav__list__icon">
-                <a href="index.html">
+                <a href="index.html" class="nav__list__icon-link">
+                    <div class="nav__list__icon-badge">
+                        8
+                    </div>
                     <i class="far fa-comment"></i>
                 </a>
             </li>
