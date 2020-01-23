@@ -12,13 +12,6 @@
     margin-bottom: 10px;
 }
 
-
-.friends-list__friend{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .friend__column{
     display: flex;
     align-items: center;
@@ -32,7 +25,6 @@
     display: flex;
     align-items: center;
 }
-
 .column__content .content__my-name{
     display: block;
 }
@@ -42,6 +34,6 @@
     align-items: center;
 }
 
-.column__content .content__my-name{
-    display: block;
+.friends-list__friend{
+    margin-bottom: 16px;
 }

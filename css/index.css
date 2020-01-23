@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .content__notify{
@@ -23,12 +24,9 @@
     align-items: center;
 }
 
-.column__avatar{
-    margin-right: 15px;
-}
-
 .content__timestamp{
     opacity: 0.6;
     font-size: 12px;
 }
+
 

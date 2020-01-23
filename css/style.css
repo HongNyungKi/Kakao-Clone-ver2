@@ -6,6 +6,12 @@
 @import "./friends.css";
 @import "./more.css";
 @import "./index.css";
+@import "find.css";
+@import "./settings.css";
+
+* {
+    box-sizing: border-box;
+}
 
 body{
     background-color: white;
@@ -19,18 +25,16 @@ a{
     text-decoration: none;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .column__avatar{
     width: 50px;
     border-radius: 40%;
+    margin-right: 15px;
 }
 
 .my-avatar{
     width: 65px;
     border-radius: 40%;
+    margin-right: 15px;
 }
 
 .content__username{
@@ -45,3 +49,4 @@ a{
 .column__content .content__username{
     display: block;
 }
+
