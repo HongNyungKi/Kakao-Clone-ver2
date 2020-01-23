@@ -4,27 +4,31 @@
     align-items: center;
 }
 
-.chats-list__chat__column2{
-    position: relative;
-}
-
-.chat__column1__avatar{
-    width: 50px;
-    border-radius: 40%;
-}
-
-.chat__column2__content__notify{
-    position: absolute;
-    top: -6px;
-    right: -6px;
+.content__notify{
     background-color: #dc5d46;
     color: white;
-width: 20px;
-height: 20px;
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 50%;
-font-size: 14px;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
 }
+
+.chat__column{
+    display: flex;
+    align-items: center;
+}
+
+.column__avatar{
+    margin-right: 15px;
+}
+
+.content__timestamp{
+    opacity: 0.6;
+    font-size: 12px;
+}
+

@@ -1,0 +1,47 @@
+.friends__plus-friends{
+    padding: 20px 0px;
+    border-top: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+    margin: 20px 0px;
+}
+
+.plus-friends__title,
+.friends-list__title{
+    font-size: 13px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+
+.friends-list__friend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend__column{
+    display: flex;
+    align-items: center;
+}
+
+.column__content .content__username{
+    display: block;
+}
+
+.header__column{
+    display: flex;
+    align-items: center;
+}
+
+.column__content .content__my-name{
+    display: block;
+}
+
+.plus-friends__column{
+    display: flex;
+    align-items: center;
+}
+
+.column__content .content__my-name{
+    display: block;
+}
