@@ -38,3 +38,6 @@ align-items: center;
     margin-bottom: 16px;
 }
 
+.find__header__list{
+    cursor: pointer;
+}
