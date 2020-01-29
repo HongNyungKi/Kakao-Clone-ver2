@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/433f5fd19c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css2/style.css">
     <title>더보기(More) | Kakao Clone</title>
 </head>
 
@@ -52,6 +53,83 @@
             </span>
         </div>
     </header>
+    <main class="more">
+        <header class="more_header">
+            <div class="my-profile_column">
+                <img class="my-profile_avatar" src="../image/Robert Downey Junior.jpg">
+                <div class="my-profile_content">
+                    <span class="my-name">
+                        Robert Downey Junior
+                    </span>
+                    <span class="my_e-mail">
+                        hnk2017@naver.com
+                    </span>
+                </div>
+            </div>
+            <div class="my-profile_column">
+                <div class="my-profile_content">
+                    <i class="far fa-comment-alt"></i>
+                </div>
+            </div>
+            <ul class="more_btn-list">
+                <li class="more_btn">
+                    <span class="more_btn-icon">
+                        <i class="far fa-smile"></i>
+                    </span>
+                    <span class="more_btn-title">
+                        Emoticons
+                    </span>
+                </li>
+                <li class="more_btn">
+                    <span class="more_btn-icon">
+                        <i class="fas fa-brush"></i>
+                    </span>
+                    <span class="more_btn-title">
+                        Themes
+                    </span>
+                </li>
+                <li class="more_btn">
+                    <span class="more_btn-icon">
+                        <i class="fab fa-korvue"></i>
+                    </span>
+                    <span class="more_btn-title">
+                        Account
+                    </span>
+                </li>
+            </ul>
+        </header>
+        <section class="suggestions">
+            <h5 class="more_suggestions-title">
+                suggestions
+            </h5>
+            <ul class="more_suggestions-list">
+                <li class="more_suggestions-btn">
+                    <span class="more_suggestions-icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <span class="more_suggestions-title">
+                        Kakao Story
+                    </span>
+                </li>
+                <li class="more_suggestions-btn">
+                    <span class="more_suggestions-icon">
+                        <i class="fas fa-users"></i>
+                    </span>
+                    <span class="more_suggestions-title">
+                        Kakao Friends
+                    </span>
+                </li>
+                <li class="more_suggestions-btn">
+                    <span class="more_suggestions-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </span>
+                    <span class="more_suggestions-title">
+                        Kakao Gem
+                    </span>
+                </li>
+            </ul>
+        </section>
+    </main>
     <nav class="nav">
         <ul class="nav_list">
             <li class="nav_list-item">
@@ -61,7 +139,10 @@
             </li>
             <li class="nav_list-item">
                 <a href="채팅방목록_index.html">
-                    <i class="far fa-comment"></i>
+                    <div class="nav_list-item_badge">
+                        8
+                    </div>
+                    <i class="fas fa-comment"></i>
                 </a>
             </li>
             <a href="친구찾기_find.html">

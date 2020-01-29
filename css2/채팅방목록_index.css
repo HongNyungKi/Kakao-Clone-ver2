@@ -1,0 +1,71 @@
+.my-profile_column{
+    display: flex;
+    align-items: center;
+}
+
+.my-profile_avatar{
+    width: 60px;
+    border-radius: 38%;
+    margin-right: 15px;
+}
+
+.my-profile_content .my-name{
+    display: block;
+    font-size: 18px;
+}
+
+.my-status{
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.friends_plus{
+    border-top: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 10px 0px;
+    margin: 20px 0px;
+}
+
+.plus-profile_column{
+    display: flex;
+    align-items: center;
+}
+
+.plus-profile_avatar{
+    width: 50px;
+    border-radius: 38%;
+    margin-right: 15px;
+}
+
+.friends_friend-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.friend-info_column{
+    display: flex;
+    align-items: center;
+}
+
+.friend-info_content .friend-info_username{
+    display: block;
+}
+
+.friend-info_avatar{
+    width: 50px;
+    border-radius: 38%;
+    margin-right: 15px;
+}
+
+.friend-info_priview{
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.friend-info_now-listening{
+    border: 2px solid #52e084;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 15px;
+    opacity: 0.7;
+}
