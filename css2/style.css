@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import "reset.css";
+@import "친구목록_friends.css";
 @import "채팅방목록_index.css";
 
 *{

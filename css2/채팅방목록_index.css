@@ -1,71 +1,68 @@
-.my-profile_column{
-    display: flex;
-    align-items: center;
-}
-
-.my-profile_avatar{
-    width: 60px;
-    border-radius: 38%;
-    margin-right: 15px;
-}
-
-.my-profile_content .my-name{
-    display: block;
-    font-size: 18px;
-}
-
-.my-status{
-    font-size: 13px;
-    opacity: 0.7;
-}
-
-.friends_plus{
-    border-top: 1px solid #f7f7f7;
-    border-bottom: 1px solid #f7f7f7;
-    padding: 10px 0px;
-    margin: 20px 0px;
-}
-
-.plus-profile_column{
-    display: flex;
-    align-items: center;
-}
-
-.plus-profile_avatar{
-    width: 50px;
-    border-radius: 38%;
-    margin-right: 15px;
-}
-
-.friends_friend-info{
+.chats_chatting-room{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
-.friend-info_column{
+.chatting-room_column{
     display: flex;
     align-items: center;
 }
 
-.friend-info_content .friend-info_username{
+.chatting-room_content .chatting-room_username{
     display: block;
+    margin-bottom: 5px;
 }
 
-.friend-info_avatar{
+.chatting-room_avatar{
     width: 50px;
     border-radius: 38%;
     margin-right: 15px;
 }
 
-.friend-info_priview{
+.chatting-room_priview{
     font-size: 13px;
     opacity: 0.7;
 }
 
-.friend-info_now-listening{
-    border: 2px solid #52e084;
-    padding: 5px 10px;
-    font-size: 12px;
-    border-radius: 15px;
-    opacity: 0.7;
+.talk-alarm{
+    font-size: 11px;
+    opacity: 0.5;
+    margin-left: 3px;
 }
+
+.chatting-room_timestamp{
+    opacity: 0.7;
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.chatting-room_badge{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4px ;
+    background-color: #dc5d46;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    float: right;
+}
+
+.chatting-room_badge2{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4px ;
+    background-color: #dc5d46;
+    color: white;
+    width: 17px;
+    height: 17px;
+    border-radius: 8px;
+    float: right;
+}
+
