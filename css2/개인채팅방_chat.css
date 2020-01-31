@@ -12,3 +12,13 @@
     font-size: 22px;
     font-weight: 600;
 }
+
+.incoming-message_avatar{
+    width: 50px;
+    border-radius: 38%;
+    margin-right: 15px;
+}
+
+.incoming-message{
+    display: flex;
+}
