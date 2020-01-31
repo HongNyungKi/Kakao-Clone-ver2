@@ -1,0 +1,70 @@
+.my_e-mail{
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.more_header_my-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.my-profile_icon{
+    font-size: 20px;
+}
+
+.more_btn-list{
+    display: flex;
+    border-top: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.more_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.more_btn-icon{
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+
+.more_btn-title{
+    font-size: 15px;
+}
+
+.suggestions-btn-title{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.more_suggestions-list{
+    display: flex;
+}
+
+.more_suggestions-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 13px;
+}
+
+.more_suggestions-icon{
+    font-size: 25px;
+    background-color: yellow;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+
+.suggestions-btn-title{
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.more_suggestions-title{
+    font-size: 17px;
+    margin-top: 10px;
+}

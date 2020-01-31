@@ -1,0 +1,14 @@
+.chat_header_colummn{
+    display: flex;
+    align-items: center;
+}
+
+.chat_back-btn{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.chat_title{
+    font-size: 22px;
+    font-weight: 600;
+}

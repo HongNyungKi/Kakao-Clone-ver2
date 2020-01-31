@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.chatting-room_content .chatting-room_username{
+.chatting-room_column .chatting-room_username{
     display: block;
     margin-bottom: 5px;
 }
@@ -66,3 +66,10 @@
     float: right;
 }
 
+.recommended_btn-icon{
+    background-color: #f5f5f5;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}

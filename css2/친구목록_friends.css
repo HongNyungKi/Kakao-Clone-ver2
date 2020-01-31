@@ -12,6 +12,7 @@
 .my-profile_content .my-name{
     display: block;
     font-size: 18px;
+    margin-bottom: 4px;
 }
 
 .my-status{
@@ -69,6 +70,7 @@
 
 .friend-info_content .friend-info_username{
     display: block;
+    margin-bottom: 4px;
 }
 
 .friend-info_avatar{

@@ -1,0 +1,33 @@
+.settings_header_colummn{
+    display: flex;
+    align-items: center;
+}
+
+.header_back-btn{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.header-list_btn-icon,
+.settings_icon{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.header-list_btn-title,
+.settings_title{
+    font-size: 22px;
+}
+
+.header-list_btn,
+.settings-settings{
+    margin-bottom: 20px;
+}
+
+.settings_header-list{
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.setting_list{
+    margin-top: 20px;
+}
