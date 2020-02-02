@@ -10,76 +10,84 @@
     <title>개인 채팅방(Chat) | Kakao Clone</title>
 </head>
 
-<body>
-    <div class="status-bar">
-        <div class="status-bar_column">
-            <span class="status-bar_clock">
-                13:54
-            </span>
-        </div>
-        <div class="status-bar_column">
-            <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar_battery-level">
-                75%
-            </span>
-            <i class="fas fa-battery-three-quarters"></i>
-        </div>
-    </div>
-    <header class="header">
-        <div class="chat_header_colummn">
-            <div class="chat_back-btn">
-                <a href="./채팅방목록_index.html">
-                    <i class="fas fa-arrow-left"></i>
-                </a>
+<body class="chat-body">
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span class="status-bar_clock">
+                    13:54
+                </span>
             </div>
-            <h1 class="chat_title">
-                Elizabeth Olsen
-            </h1>
+            <div class="status-bar_column">
+                <i class="fas fa-clock"></i>
+                <i class="fas fa-volume-mute"></i>
+                <i class="fas fa-wifi"></i>
+                <span class="status-bar_battery-level">
+                    75%
+                </span>
+                <i class="fas fa-battery-three-quarters"></i>
+            </div>
         </div>
-        <div class="chat_header_colummn">
-            <span class="header-icon">
-                <i class="fas fa-search"></i>
-            </span>
-            <span class="header-icon">
-                <i class="fas fa-bars"></i>
-            </span>
-        </div>
-    </header>
+        <header class="header">
+            <div class="chat_header_colummn">
+                <div class="chat_back-btn">
+                    <a href="./채팅방목록_index.html">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+                <h1 class="chat_title">
+                    Elizabeth Olsen
+                </h1>
+            </div>
+            <div class="chat_header_colummn">
+                <span class="header-icon">
+                    <i class="fas fa-search"></i>
+                </span>
+                <span class="header-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </div>
+        </header>
     <main class="chat">
         <ul class="chat_messages">
             <span class="chat_timestap">
-                March 11, 2019
+                Friday, January 28, 2020
             </span>
-            <li class="incoming-message">
-                <img class="incoming-message_avatar" src="../image/Elizabeth Olsen.jpg">
-                <div class="message_content">
-                    <div class="message_username">
+            <li class="receive-message">
+                <img src="../image/Elizabeth Olsen.jpg" class="receive-message_avatar">
+                <div class="receive-message_content">
+                    <div class="receive-message_username">
                         Elizabeth Olsen
                     </div>
-                    <div class="message_bubble">
+                    <div class="receive-message_bubble">
                         Hello Tony!!!
                     </div>
                 </div>
-                <span class="message-timestap">
-                    15:19
-                </span>
             </li>
-            <li class="my-message">
-                <div class="message_content">
-                    <div class="message_content">
-                        <div class="message_bubble">
-                            Hi
-                        </div>
-                    </div>
+            <li class="send-message">
+                <div class="send-message_content">
+                    <span class="send-message_bubble">
+                        Hey, Olsen! What's going on?
+                    </span>
                 </div>
             </li>
-            <span class="message-timestap">
-                15:25
-            </span>
         </ul>
     </main>
+    <div class="chat-write">
+        <div class="chat-write_column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="chat-write_column">
+            <input type="text" placeholder="Write your message." class="chat-write_input">
+        </div>
+        <div class="chat-write_column">
+            <span class="chat-write_icon">
+                <i class="far fa-smile-wink"></i>
+            </span>
+            <span class="chat-write_icon">
+                <i class="fas fa-microphone"></i>
+            </span>
+        </div>
+    </div>
 </body>
 
 </html>
